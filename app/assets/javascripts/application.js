@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).on('ready page:load', function () {
+  // $('#writesomething').on('keyup', function(e) {
+  //     $('#appear').html($(this).val().draggable());
+  //  });
+});
